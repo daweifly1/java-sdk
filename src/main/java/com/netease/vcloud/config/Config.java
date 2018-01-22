@@ -824,7 +824,7 @@ public final class Config {
 	* <p>Description: 取得获取单个视频的URL</p>
 	* @return 获取单个视频的URL
 	 */
-	public static String getGetSingleVideoURL() {
+	public static String getSingleVideoURL() {
 		return getSingleVideoURL;
 	}
 
@@ -1560,6 +1560,10 @@ public final class Config {
 		return queryVideoIDURL;
 	}
 
+
+	public static String getSingleVideoURLURL() {
+		return getSingleVideoURL;
+	}
 	/**
 	 * 
 	* <p>Title: setQueryVideoIDURL</p>
